@@ -12,9 +12,7 @@ function App() {
 
       <Header title="I am Header" />
 
-      <List items="Home" />
-      <List items="About" />
-      <List items="Products" />
+      <List items={["Home", "About Us", "Contact Us"]} />
     </div>
   );
 }

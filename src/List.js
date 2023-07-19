@@ -1,10 +1,11 @@
 function List({ items } ){
+
+    const listItems = items.map((item) => <li>{item}</li> )
+
     return(
         <>
             <ul>
-                <li style={{fontSize: '3rem'}}>
-                    {items}
-                </li>
+                {listItems}
             </ul>
         </>
     )
